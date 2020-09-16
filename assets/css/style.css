@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {/*Set background color to #d9dcd6*/
+    background-color: #d9dcd6; 
+}
+
+.header { /*Style for main header and navigation links*/
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 { /*Style for company logo in main header*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {/*Set color of "seo" portion of logo*/
+    color: #d9dcd6; 
+}
+
+.header div { /*Style and alignment for navigation links*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul { /*Style for navigation link list*/
+    list-style-type: none;
+}
+
+.header div ul li { /*Style for individual inks*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { /*Set link color*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p { /*Set paragraph font size*/
+    font-size: 16px;
+}
+
+.hero { /*Main hero figure*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content { /*Style width and alignment of main content section*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-content { /*Style for main content divs*/
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;   
+}
+
+.main-content img { /*Style for all 3 content images*/
+    max-height: 200px;
+}
+
+.main-content h2 { /*Style for all 3 content headers*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left { /*Float id="search-engine-optimization" and id="social-media-marketing" to left*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /*Float id="online-reputation-management" left*/
+    float: right;
+    margin-left: 25px;
+}
+
+.benefits-aside { /*Style and alignment for benefits aside*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+.benefit { /*Style margin for all 3 divs in id="benefits-aside"*/
+    margin-bottom: 32px;
+}
+
+.benefit h3 { /*Style for all aside headers*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit img { /*Style for all aside images*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer { /*Style for footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 { /*Font size for small text*/
+    font-size: 20px;
+}
